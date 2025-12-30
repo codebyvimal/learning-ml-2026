@@ -1,0 +1,14 @@
+# Ignore the virtual environment box
+.venv/
+__pycache__/
+
+# Ignore specific user settings
+.vscode/
+
+# Ignore big data files (GitHub rejects files >100MB)
+*.csv
+*.xlsx
+*.zip
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
