@@ -8,14 +8,14 @@ Author: Vimal | Status: In Progress 🚧
 ## 📌 Syllabus & Progress Tracker
 
 ### Phase 0: The Setup (Week 0)
-- [ ] **Environment:** VS Code, Virtual Env (`.venv`), Git repo initialized.
-- [ ] **Pre-reqs:** CS50P Unit Tests & File I/O completed.
+- [x] **Environment:** VS Code, Virtual Env (`.venv`), Git repo initialized.
+- [ ] **Pre-reqs:** CS50P Unit Tests completed.
 
 ### Phase 1: Data Foundations (Jan - Feb)
 **Goal:** Become fluent in Python data handling and "The Detective" mindset.
 - [ ] **Month 01: The Operator** (Python & Pandas)
   - *Focus:* Logic, cleaning data, error handling.
-  - *Deliverable:* **The CSV Analyzer** (CLI Tool with Unit Tests).
+  - *Deliverable:* **The CSV Analyzer** (CLI Tool with Unit Tests) - submit to CS50p
 - [ ] **Month 02: The Detective** (EDA & Cleaning)
   - *Focus:* Finding outliers, visualization, statistical intuition.
   - *Deliverable:* **Titanic EDA Report** (Jupyter Notebook & Cleaned CSV).
