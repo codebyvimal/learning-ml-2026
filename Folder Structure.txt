@@ -1,0 +1,32 @@
+learning-ml-2026/
+├── .venv/                   <-- Your Virtual Environment (DO NOT TOUCH THIS)
+├── .gitignore               <-- Critical: Tells Git to ignore .venv and datasets
+├── requirements.txt         <-- List of all installed libraries (e.g., pandas)
+├── README.md                <-- The main documentation for the repo
+│
+├── 01_Foundations/          <-- (Month 1)
+│   ├── data/                <-- Put your practice CSVs here
+│   ├── project.py           <-- Month 1 Deliverable: CSV Analyzer
+│   ├── test_project.py      <-- Unit tests for CS50P
+│   └── notebook.ipynb       <-- Practice scratchpad
+│
+├── 02_EDA/                  <-- (Month 2)
+│   ├── titanic_dataset/     <-- Titanic CSV files
+│   ├── analysis.ipynb       <-- Month 2 Deliverable: EDA Report
+│   └── titanic_clean.csv    <-- The cleaned data output
+│
+├── 03_Modeling/             <-- (Month 3)
+│   ├── house_price.py       <-- Month 3 Deliverable: Regression
+│   └── survival_pred.py     <-- Month 3 Deliverable: Logistic Classification
+│
+├── 04_Math_From_Scratch/    <-- (Month 4)
+│   └── gradient_descent.py  <-- Month 4 Deliverable: Pure Python Math
+│
+├── 05_Pipeline/             <-- (Month 5)
+│   ├── housing.db           <-- Your SQL Database
+│   └── pipeline.py          <-- Month 5 Deliverable: The ETL Script
+│
+└── 06_Capstone/             <-- (Month 6)
+    ├── app.py               <-- Streamlit Web App
+    ├── model.py             <-- Final Logic
+    └── etl.py               <-- Data Logic
