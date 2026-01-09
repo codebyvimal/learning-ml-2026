@@ -1,4 +1,10 @@
-name = "vimal\n"
-print(name)
-name = name.rstrip()
-print(name)
+students = []
+with open("names.csv") as file:
+    for line in file:
+        name,place = line.rstrip().split(",")
+        student = {}
+        student["name"] = name
+        student["place"] = place
+        students.append(student)
+for student in students:
+    print(f"{student['name']} is in {student['place']}")
