@@ -1,4 +1,5 @@
 import turtle
+screen = turtle.screen()
 
-timmy = turtle.Turtle()
+answer = screen.textinput("Hello!"), "What is your name?"
 
