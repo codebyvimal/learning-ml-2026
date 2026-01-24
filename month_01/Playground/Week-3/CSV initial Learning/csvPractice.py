@@ -20,7 +20,7 @@ import pandas
  # print row
 #print(type(data[data.temp == data.temp.max()]))
 #monday = data[data.day == "Monday"]
-#print(type(monday.condition))
+#print(monday.condition.item())
 
 # Creating a dataframe from scratch
 #data_dict = {"students": ["Amy", "James", "Vimal"],
@@ -29,13 +29,18 @@ import pandas
 #print(data)
 #data.to_csv("New_CSV")
 
-data = pandas.read_csv("Squirrel_Data.csv")
-gray_squirrels = len(data[data["Primary Fur Color"] == "Gray"])
-Cinnamon_squirrels = len(data[data["Primary Fur Color"] == "Cinnamon"])
-Black_squirrels = len(data[data["Primary Fur Color"] == "Black"])
+#data = pandas.read_csv("Squirrel_Data.csv")
+#gray_squirrels = len(data[data["Primary Fur Color"] == "Gray"])
+#Cinnamon_squirrels = len(data[data["Primary Fur Color"] == "Cinnamon"])
+#Black_squirrels = len(data[data["Primary Fur Color"] == "Black"])
+#
+#final_table = {"Fur Color": ["Grey","Cinnamon", "Black"], 
+#               "Count": [gray_squirrels, Cinnamon_squirrels, Black_squirrels]}
 
-final_table = {"Fur Color": ["Grey","Cinnamon", "Black"], 
-               "Count": [gray_squirrels, Cinnamon_squirrels, Black_squirrels]}
+#DFile = pandas.DataFrame(final_table)
+#DFile.to_csv("Final")
 
-DFile = pandas.DataFrame(final_table)
-DFile.to_csv("Final")
+#data = pandas.read_csv("Squirrel_Data.csv")
+#chosen_one = (data[data["Unique Squirrel ID"] == "8H-AM-1017-06"])
+#x = chosen_one["Age"].item()
+#print(x)
