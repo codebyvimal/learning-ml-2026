@@ -1,7 +1,7 @@
 # I will do some tasks to practice my CSV handling skills
 import pandas
 
-data = pandas.read_csv("//home//vimal-prasath//Learning-ml-2026//month_01//Playground//Week-3//Pokemon//Pokemon.csv")
+data = pandas.read_csv("Pokemon//Pokemon.csv")
 
 # Task 1 - "Create a dataframe that contains only Legendary Pokemon"
 
