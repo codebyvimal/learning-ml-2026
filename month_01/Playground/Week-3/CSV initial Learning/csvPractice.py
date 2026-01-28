@@ -12,10 +12,10 @@
 
 import pandas
 
-#data = pandas.read_csv("weather_data.csv")
-# print(data["temp"])
-#data_dict = data.to_dict()
-#temp_list = data["temp"].to_list()
+data = pandas.read_csv("weather_data.csv")
+print(data["temp"])
+data_dict = data.to_dict()
+temp_list = data["temp"].to_list()
 #print(data.temp)
  # print row
 #print(type(data[data.temp == data.temp.max()]))
