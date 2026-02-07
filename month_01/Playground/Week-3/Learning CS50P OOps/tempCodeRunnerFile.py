@@ -1,1 +1,0 @@
-f"{student.name} from {student.house}"
